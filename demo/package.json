@@ -2,7 +2,6 @@
   "name": "2022-1",
   "author": "Toni Sánchez (https://tonisanchez.dev)",
   "version": "0.1.0",
-  "private": false,
   "homepage": "./src",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",

@@ -3,7 +3,7 @@
 Communicating with different APIs from the Front End is often a repetitive task that can be summarised in a documented and coded process. In order to save time and use a consistent code style among different services is vital to have this process pre-defined.
 
 # About
-A script to generate a folder named as your component, containing a minimalist react-typescript (.tsx) template component with its jest test file, types file, stories file (storybook.js), and styles file (react-jss). Develop faster by creating all you need for your new component at once.
+A script to generate a folder named as your service, containing a default service with response handlers, including error handlers. Built in TypeScript.
 ```
 └── my-service
     │
@@ -99,7 +99,7 @@ Execute the script on your package.json like this:
 ```
 // package.json
 ...
-  "component": "node node_modules/@tonisanchez.dev/init-service 'YOUR_SERVICES_FOLDER_DIR'",
+  "service": "node node_modules/@tonisanchez.dev/init-service 'YOUR_SERVICES_FOLDER_DIR'",
 ...
 ```
 Everytime you call this script a new folder will be created containing 6 files:
@@ -134,7 +134,7 @@ export const getThis = async (country: string) => {
 
 ## [utils.ts]
 ```
-export type MyComponentProps = {
+export type MyServiceProps = {
   children: string
 }import { AxiosResponse } from 'axios'
 import { toaster } from 'ui-sora'
