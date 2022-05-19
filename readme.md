@@ -155,7 +155,7 @@ import axios from 'axios'
 import { base } from '../routes'
 
 export const getThis = async (country: string) => {
-  const baseUrl: string = \`https://restcountries.com/v3.1/name/\${country}\`
+  const baseUrl: string = `https://restcountries.com/v3.1/name/\${country}`
   const res = await axios.get(baseUrl).catch((error) => error.response)
   return res
 }
@@ -223,6 +223,5 @@ export const responseIsExpected = (
 }
 ```
 
-
 # Have fun with it
-I will be publishing newer versions and extend this simple and small tool. Meanwhile, I have more interesting projects on my Github [@TonySapa](https://github.com/
+I will be publishing newer versions and extend this simple and small tool. Meanwhile, I have more interesting projects on my Github [@TonySapa](https://github.com/TonySapa) or site [tonisanchez.dev](https://tonisanchez.dev)
