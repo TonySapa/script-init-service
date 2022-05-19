@@ -1,0 +1,12 @@
+{
+  "name": "@tonisanchez.dev/init-service",
+  "author": "Toni Sánchez (https://tonisanchez.dev)",
+  "version": "v1.0.0",
+  "type": "module",
+  "private": "false",
+  "scripts": {
+    "build-demo": "cd demo && yarn build && cd ..",
+    "service": "node index.js './src/services'",
+    "demo": "cd demo && yarn start && cd .."
+  }
+}
