@@ -1,7 +1,7 @@
 {
   "name": "@tonisanchez.dev/init-service",
   "author": "Toni Sánchez (https://tonisanchez.dev)",
-  "version": "v1.0.2",
+  "version": "v1.0.3",
   "type": "module",
   "scripts": {
     "init-demo": "cd demo && yarn && cd ..",
